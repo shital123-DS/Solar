@@ -1,0 +1,21 @@
+<html>
+<head>
+
+</head>
+
+<body>
+    <h1>SOLAR PANEL EFFICIENCY PREDICTION</h1>
+    
+    <form action = "/predict" method = "POST">
+        <label>Max_Power(Pmax)</label> <input type="text" name = "Pmax"> <br> <br>
+        <label>Max_Power_Volt(Vmp)</label> <input type="text" name = "Vmp"> <br> <br>
+        <label>Max_Power_Curr_(Imp)</label> <input type="text" name = "Imp"> <br> <br>
+        <label>Open_Circuit_Volt(Voc)</label> <input type="text" name = "Voc"> <br> <br>
+        <label>Short_Circuit_Curr(Isc)</label> <input type="text" name = "Isc"> <br> <br>
+        <input type="submit" value = "PREDICT">{{pred}}
+        
+    </form>
+</body>
+
+
+</html>
